@@ -1,0 +1,15 @@
+C:\Users\Mateusz Celka\Source\Repos\TestWeather\TestWeather\TestWeather\bin\Debug\netstandard2.0\TestWeather.deps.json
+C:\Users\Mateusz Celka\Source\Repos\TestWeather\TestWeather\TestWeather\bin\Debug\netstandard2.0\TestWeather.dll
+C:\Users\Mateusz Celka\Source\Repos\TestWeather\TestWeather\TestWeather\bin\Debug\netstandard2.0\ref\TestWeather.dll
+C:\Users\Mateusz Celka\Source\Repos\TestWeather\TestWeather\TestWeather\bin\Debug\netstandard2.0\TestWeather.pdb
+C:\Users\Mateusz Celka\Source\Repos\TestWeather\TestWeather\TestWeather\obj\Debug\netstandard2.0\TestWeather.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateusz Celka\Source\Repos\TestWeather\TestWeather\TestWeather\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Mateusz Celka\Source\Repos\TestWeather\TestWeather\TestWeather\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Mateusz Celka\Source\Repos\TestWeather\TestWeather\TestWeather\obj\Debug\netstandard2.0\TestWeather.AssemblyInfoInputs.cache
+C:\Users\Mateusz Celka\Source\Repos\TestWeather\TestWeather\TestWeather\obj\Debug\netstandard2.0\TestWeather.AssemblyInfo.cs
+C:\Users\Mateusz Celka\Source\Repos\TestWeather\TestWeather\TestWeather\obj\Debug\netstandard2.0\TestWeather.csproj.CoreCompileInputs.cache
+C:\Users\Mateusz Celka\Source\Repos\TestWeather\TestWeather\TestWeather\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Mateusz Celka\Source\Repos\TestWeather\TestWeather\TestWeather\obj\Debug\netstandard2.0\TestWeather.dll
+C:\Users\Mateusz Celka\Source\Repos\TestWeather\TestWeather\TestWeather\obj\Debug\netstandard2.0\ref\TestWeather.dll
+C:\Users\Mateusz Celka\Source\Repos\TestWeather\TestWeather\TestWeather\obj\Debug\netstandard2.0\TestWeather.pdb
+C:\Users\Mateusz Celka\Source\Repos\TestWeather\TestWeather\TestWeather\obj\Debug\netstandard2.0\TestWeather.csproj.AssemblyReference.cache

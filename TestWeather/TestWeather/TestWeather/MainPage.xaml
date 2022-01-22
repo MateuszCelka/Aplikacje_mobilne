@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestWeather.MainPage"
+             BackgroundImage="background1.jpg">
+
+    <StackLayout>
+
+        <StackLayout  HorizontalOptions="Center">
+            <Entry
+            Placeholder="City Name"
+            WidthRequest="300"
+            TextColor="White"
+            PlaceholderColor="white"          
+            HorizontalOptions="Center"  
+            Margin="0,20,0,0"
+            x:Name="cityNameText"
+            HorizontalTextAlignment="Center"/>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                <Button Text="Test 1"
+                       FontSize="8"
+                       HeightRequest="30"
+                       TextColor="White"
+                       HorizontalOptions="FillAndExpand"
+                       BackgroundColor="#79a5da"
+                       x:Name="lastLabel1"
+                       CornerRadius="25"
+                       BorderColor="LightBlue"
+                       BorderWidth="1.5"
+                       Clicked="LastSearchesClicked"/>
+
+                <Button Text="Test 2"
+                       FontSize="8"
+                        HeightRequest="30"
+                        TextColor="White"
+                       HorizontalOptions="FillAndExpand"
+                        BackgroundColor="#79a5da"
+                       x:Name="lastLabel2"
+                    CornerRadius="25"
+                        BorderColor="LightBlue"
+                        BorderWidth="1.5"
+                        Clicked="LastSearchesClicked"
+                    />
+
+                <Button Text="Test 3"
+                       FontSize="8"
+                        HeightRequest="30"
+                        TextColor="White"
+                       HorizontalOptions="FillAndExpand"
+                        BackgroundColor="#79a5da"
+                       x:Name="lastLabel3"
+                        BorderColor="LightBlue"
+                        BorderWidth="1.5"
+                    CornerRadius="25"
+                        Clicked="LastSearchesClicked"/>
+
+            </StackLayout>
+
+
+            <Button
+              Text="Check" 
+              Margin="0,20,0,0"
+              HeightRequest="50"
+              CornerRadius="25"
+              BackgroundColor="LightBlue"   
+              TextColor="black"
+              x:Name="getWeatherButton"
+              Clicked="WeatherClicked"
+              />
+            
+        </StackLayout>
+
+
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,30,0,0">
+
+            <Image Source="sunshine.png"              
+               HeightRequest="100"
+               x:Name="weatherImage"/>
+
+            <Label Text="-"            
+               TextColor="White"                
+               FontSize="80"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               x:Name="temperatureLabel"/>
+            
+            <Label Text="°C"
+              FontSize="40"
+              FontAttributes="Bold"
+              HorizontalOptions="Center"
+              TextColor="white" />
+            
+        </StackLayout>
+        <StackLayout>
+            <Label Text=""
+              TextColor="white"
+               FontSize="35"
+               Margin="20,0,0,30"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               x:Name="weatherDescriptionLabel"/>
+            
+            <Label Text=""
+              TextColor="white"
+               FontSize="30"
+               Margin="20,0,0,3"   
+               x:Name="placeLabel"/>
+
+            <StackLayout Orientation="Horizontal">
+                
+                <Image Source="icon_feels_guy.png"
+                       HeightRequest="20"
+                       Margin="20,0,0,0"/>
+                
+                <Label Text=""
+                       TextColor="white"
+                       FontSize="20"
+                       Margin="5,0,0,0"
+                       x:Name="tempFeelsLikeLabel"/>   
+                
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+
+                <Image Source="icon_wind.png"
+                       HeightRequest="20"
+                       Margin="20,0,0,0"/>
+                
+                <Label Text=""
+                       TextColor="white"
+                       FontSize="20"
+                       Margin="5,0,0,0"
+                       x:Name="windSpeedLabel"/>  
+                
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                
+                <Image Source="icon_humidity.png"
+                       HeightRequest="20"
+                       Margin="20,0,0,0"/>
+
+                <Label Text=""
+                       TextColor="white"
+                       FontSize="20"
+                       Margin="5,0,0,0"
+                       x:Name="humidityLabel"/>
+
+            </StackLayout>
+
+            
+
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

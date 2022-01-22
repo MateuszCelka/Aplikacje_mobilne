@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "551be153-1e10-4c9a-b8f9-30028a3af0c8": {
+      "ProjectGuid": "551be153-1e10-4c9a-b8f9-30028a3af0c8",
+      "DisplayName": "TestWeather.Android",
+      "ColorIndex": 0
+    },
+    "8a9dfc81-6d57-47bc-8587-f8efe021a676": {
+      "ProjectGuid": "8a9dfc81-6d57-47bc-8587-f8efe021a676",
+      "DisplayName": "TestWeather",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
