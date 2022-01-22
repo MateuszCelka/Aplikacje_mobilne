@@ -15,3 +15,7 @@
  - Wilgotność powietrza
  - Icon powiązana z aktualnym stanem pogody
  - 3 ostanie wyszukania użytkowników
+
+## Podgląd aplikacji
+
+![alt text](https://github.com/MateuszCelka/Aplikacje_mobilne/blob/main/podgląd.png?raw=true)
