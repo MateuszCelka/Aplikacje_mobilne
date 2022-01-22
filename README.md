@@ -9,6 +9,7 @@
  
  ## Informacjie wyświetlane w aplikacji
  - Temperatura
+ - Nazwa miasta razem z kodem kraju
  - Temperatura odczuwalna
  - Prędkość wiatru 
  - Wilgotność powietrza
