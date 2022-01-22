@@ -18,4 +18,8 @@
 
 ## Podgląd aplikacji
 
-![alt text](https://github.com/MateuszCelka/Aplikacje_mobilne/blob/main/podgląd.png?raw=true)
+![Screenshot](podgląd.PNG)
+
+## Autorzy
+- Mateusz Celka (23765)
+- Tomasz Kasprzak (23762)
