@@ -30,7 +30,7 @@ namespace TestWeather
         private string Location = "Poznan"; // Domyślna lokalizacja
 
         // Połączenie z Azure DB
-        private string connStr = "Server=tcp:weather-serwer.database.windows.net,1433;Initial Catalog=WeatherAppDB;Persist Security Info=False;User ID=myadmin;Password=qaz12345!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        private string connStr = "Server=tcp:weatherappserver.database.windows.net,1433;Initial Catalog=weatherappdatabase;Persist Security Info=False;User ID=myadmin;Password=qaz123@1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
         // Połączenie się z bazą oraz pobranie ostatnich 3 wyszukań użytkowników
         private void getHistory()
@@ -39,7 +39,7 @@ namespace TestWeather
             {
                 using (var command = conn.CreateCommand())
                 {
-                    command.CommandText = "select top 3 city_name from userSearchHistory order by id desc";
+                    command.CommandText = "select top 3 cityname from Userhistory order by id desc";
 
                     conn.Open();
                     using (var reader = command.ExecuteReader())
@@ -132,7 +132,7 @@ namespace TestWeather
             {
                 using (var command = conn.CreateCommand())
                 {
-                    command.CommandText = @"INSERT INTO userSearchHistory (city_name) VALUES (@city_name)";
+                    command.CommandText = @"INSERT INTO Userhistory (cityname) VALUES (@city_name)";
                     command.Parameters.AddWithValue("@city_name", city_name);
 
                     conn.Open();

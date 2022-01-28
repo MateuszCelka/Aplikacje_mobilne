@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mateusz Celka\\Source\\Repos\\TestWeather\\TestWeather\\TestWeather\\TestWeather.csproj": {}
+    "C:\\Users\\tomas\\Documents\\GitHub\\Aplikacje_mobilne\\TestWeather\\TestWeather\\TestWeather\\TestWeather.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mateusz Celka\\Source\\Repos\\TestWeather\\TestWeather\\TestWeather\\TestWeather.csproj": {
+    "C:\\Users\\tomas\\Documents\\GitHub\\Aplikacje_mobilne\\TestWeather\\TestWeather\\TestWeather\\TestWeather.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mateusz Celka\\Source\\Repos\\TestWeather\\TestWeather\\TestWeather\\TestWeather.csproj",
+        "projectUniqueName": "C:\\Users\\tomas\\Documents\\GitHub\\Aplikacje_mobilne\\TestWeather\\TestWeather\\TestWeather\\TestWeather.csproj",
         "projectName": "TestWeather",
-        "projectPath": "C:\\Users\\Mateusz Celka\\Source\\Repos\\TestWeather\\TestWeather\\TestWeather\\TestWeather.csproj",
-        "packagesPath": "C:\\Users\\Mateusz Celka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mateusz Celka\\Source\\Repos\\TestWeather\\TestWeather\\TestWeather\\obj\\",
+        "projectPath": "C:\\Users\\tomas\\Documents\\GitHub\\Aplikacje_mobilne\\TestWeather\\TestWeather\\TestWeather\\TestWeather.csproj",
+        "packagesPath": "C:\\Users\\tomas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tomas\\Documents\\GitHub\\Aplikacje_mobilne\\TestWeather\\TestWeather\\TestWeather\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mateusz Celka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.emzi0767.com/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
